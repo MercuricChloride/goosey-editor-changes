@@ -3,7 +3,7 @@ Extension { #name : #GtPharoSourceCoder }
 { #category : #'*GooseyEditor' }
 GtPharoSourceCoder >> emacsMovement: anAst into: coderAddOns from: aCoderViewModel [
 	<gtAstCoderAddOns: 69>
-	coderAddOns addShortcuts: GooseEmacsMovementShortcuts shortcuts
+	coderAddOns addShortcuts: GooseEmacsMovementShortcuts shortcuts.
 ]
 
 { #category : #'*GooseyEditor' }
