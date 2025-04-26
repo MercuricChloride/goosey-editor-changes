@@ -1,11 +1,11 @@
 Class {
-	#name : #BaselineOfGooseyEditorChanges,
+	#name : #BaselineOfGooseyEditor,
 	#superclass : #BaselineOf,
-	#category : #BaselineOfGooseyEditorChanges
+	#category : #BaselineOfGooseyEditor
 }
 
 { #category : #baseline }
-BaselineOfGooseyEditorChanges >> baseline: spec [
+BaselineOfGooseyEditor >> baseline: spec [
 	<baseline>
 		^ spec for: #common do: [
 			spec package: 'GooseyEditor'
